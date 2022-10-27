@@ -33,7 +33,7 @@ class _QunutState extends State<Qunut> {
                     margin: EdgeInsets.only(top: 80),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Color(0xffb4ddd9),
+                      color: Colors.yellow,
                     ),
                     height: 200,
                     width: MediaQuery.of(context).size.width,
@@ -71,7 +71,7 @@ class _QunutState extends State<Qunut> {
                         topLeft: Radius.circular(30),
                         bottomLeft: Radius.circular(30),
                         bottomRight: Radius.circular(30)),
-                    child: Image.asset("asset/images/bg_qunut.jpg",
+                    child: Image.asset("asset/images/bg_qunut.png",
                         width: 330, height: 200, fit: BoxFit.fill),
                   ),
                 ),

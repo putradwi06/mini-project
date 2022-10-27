@@ -33,7 +33,7 @@ class _DoaState extends State<Alfatihah> {
                     margin: EdgeInsets.only(top: 80),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Color(0xffb4ddd9),
+                      color: Colors.yellow,
                     ),
                     height: 200,
                     width: MediaQuery.of(context).size.width,

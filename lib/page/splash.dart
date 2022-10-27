@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:miniproject_putra/page/page.dart';
 
+import 'intro.dart';
+
 class splash extends StatefulWidget {
   @override
   _splashState createState() => _splashState();
@@ -18,7 +20,7 @@ class _splashState extends State<splash> {
     return Timer(duration, () {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => MainPage()),
+        MaterialPageRoute(builder: (context) => IntroScreen()),
       );
     });
   }
@@ -41,7 +43,7 @@ class _splashState extends State<splash> {
               height: 15.0,
             ),
             Text(
-              "BERDOA SKUYYY!!",
+              "JANGAN LUPA BERDOA",
               textAlign: TextAlign.justify,
               style: TextStyle(
                 color: Colors.white,

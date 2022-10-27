@@ -15,7 +15,7 @@ class MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.lightBlue,
       body: SafeArea(
           child: Center(
         child: Column(
@@ -34,12 +34,9 @@ class MainPageState extends State<MainPage> {
                   child: Column(
                     children: <Widget>[
                       Image(
-                        image: AssetImage("asset/images/doa_seharihari.png"),
-                        height: 100,
-                        width: 100,
-                      ),
-                      SizedBox(
-                        height: 10,
+                        image: AssetImage("asset/images/doa.png"),
+                        height: 130,
+                        width: 130,
                       ),
                       Text(
                         "Doa sehari-hari",
@@ -70,6 +67,7 @@ class MainPageState extends State<MainPage> {
                         image: AssetImage("asset/images/alfatihah.png"),
                         height: 100,
                         width: 100,
+                        color: Colors.white,
                       ),
                       SizedBox(
                         height: 10,
@@ -100,9 +98,9 @@ class MainPageState extends State<MainPage> {
                   child: Column(
                     children: <Widget>[
                       Image(
-                        image: AssetImage("asset/images/doa_qunut.png"),
-                        height: 100,
-                        width: 100,
+                        image: AssetImage("asset/images/qunut.png"),
+                        height: 130,
+                        width: 130,
                       ),
                       SizedBox(
                         height: 10,

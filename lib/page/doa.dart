@@ -33,7 +33,7 @@ class _DoaState extends State<Doa> {
                     margin: EdgeInsets.only(top: 80),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: Color(0xffb4ddd9),
+                      color: Colors.yellow,
                     ),
                     height: 200,
                     width: MediaQuery.of(context).size.width,
@@ -72,7 +72,7 @@ class _DoaState extends State<Doa> {
                         bottomLeft: Radius.circular(30),
                         bottomRight: Radius.circular(30)),
                     child: Image.asset("asset/images/bg_doa.png",
-                        width: 320, height: 230, fit: BoxFit.fill),
+                        width: 280, height: 230, fit: BoxFit.fill),
                   ),
                 ),
                 Align(
